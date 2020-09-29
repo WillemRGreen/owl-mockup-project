@@ -2,19 +2,17 @@ import store from '../store'
 import React from 'react'
 
 
-function stage (props){
-    if(props.onStage === true) {
+export default function stage (props){
     return (
         <div className='item'>
             <div>
-                <header>{props.participants.name}</header>
+                <header><h2>{props.name}</h2></header>
             </div>
             <div>
-                <img src ={props.participants.avatar} width ='50' alt='avatar'/>
+                <img src ={props.avatar} width ='300' alt='avatar'/>
             </div>
         </div>
-    )}
+    )
 }
 
 
-export default stage

@@ -1,0 +1,11 @@
+
+
+.participants-list {
+    display:flex;
+    flex-direction:column;
+}
+
+.item{
+    flex:1;
+    margin:10px;
+}

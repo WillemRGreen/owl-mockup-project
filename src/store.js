@@ -89,3 +89,8 @@ const chatEvents = [
         timestamp: 1548852724247
     }
 ];
+
+export default {
+    participants,
+    chatEvents
+}

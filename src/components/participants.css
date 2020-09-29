@@ -1,0 +1,16 @@
+.on-stage-in-session{
+    order:1;
+    border:1px solid black;
+    width:300px;
+}
+
+.on-stage{
+    order:2;
+    border:1px solid black;
+    width:300px;
+}
+.left-session{
+    order:3;
+    border:1px solid black;
+    width:300px;
+}
